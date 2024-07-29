@@ -1,4 +1,4 @@
-package week3;
+package week3.homework;
 
 public class DivideOperation {
     public double operation(int a, int b) {

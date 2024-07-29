@@ -1,4 +1,4 @@
-package week3;
+package week3.homework;
 
 public class Calculator {
     AddOperation addOperation;
@@ -19,16 +19,16 @@ public class Calculator {
 
         double result = 0.0;
 
-        if(Operator.equals("+")) {
+        if (Operator.equals("+")) {
             result = firstNumber + secondNumber;
 
-        } else if(Operator.equals("-")) {
+        } else if (Operator.equals("-")) {
             result = firstNumber - secondNumber;
 
-        }else if (Operator.equals("*")) {
+        } else if (Operator.equals("*")) {
             result = firstNumber * secondNumber;
 
-        } else if(Operator.equals("/")) {
+        } else if (Operator.equals("/")) {
             if (secondNumber != 0) {
                 result = firstNumber / secondNumber;
             } else {
@@ -36,9 +36,5 @@ public class Calculator {
             }
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        Calculator calculator = new Calculator();
     }
 }
